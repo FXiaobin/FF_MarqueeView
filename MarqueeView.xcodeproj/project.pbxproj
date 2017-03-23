@@ -13,6 +13,8 @@
 		18A333F71E83A05F007BFDCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A333F51E83A05F007BFDCE /* Main.storyboard */; };
 		18A333F91E83A05F007BFDCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A333F81E83A05F007BFDCE /* Assets.xcassets */; };
 		18A333FC1E83A05F007BFDCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A333FA1E83A05F007BFDCE /* LaunchScreen.storyboard */; };
+		18A3340A1E83A06E007BFDCE /* GYChangeTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A334061E83A06E007BFDCE /* GYChangeTextView.m */; };
+		18A3340B1E83A06E007BFDCE /* WQLPaoMaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A334091E83A06E007BFDCE /* WQLPaoMaView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		18A333F81E83A05F007BFDCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A333FB1E83A05F007BFDCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18A333FD1E83A05F007BFDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A334051E83A06E007BFDCE /* GYChangeTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYChangeTextView.h; sourceTree = "<group>"; };
+		18A334061E83A06E007BFDCE /* GYChangeTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYChangeTextView.m; sourceTree = "<group>"; };
+		18A334081E83A06E007BFDCE /* WQLPaoMaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQLPaoMaView.h; sourceTree = "<group>"; };
+		18A334091E83A06E007BFDCE /* WQLPaoMaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQLPaoMaView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		18A333EB1E83A05F007BFDCE /* MarqueeView */ = {
 			isa = PBXGroup;
 			children = (
+				18A334031E83A06E007BFDCE /* MarqueeView */,
 				18A333EF1E83A05F007BFDCE /* AppDelegate.h */,
 				18A333F01E83A05F007BFDCE /* AppDelegate.m */,
 				18A333F21E83A05F007BFDCE /* ViewController.h */,
@@ -77,6 +84,33 @@
 				18A333ED1E83A05F007BFDCE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A334031E83A06E007BFDCE /* MarqueeView */ = {
+			isa = PBXGroup;
+			children = (
+				18A334041E83A06E007BFDCE /* GYChangeTextView */,
+				18A334071E83A06E007BFDCE /* WQLPaoMaView */,
+			);
+			path = MarqueeView;
+			sourceTree = "<group>";
+		};
+		18A334041E83A06E007BFDCE /* GYChangeTextView */ = {
+			isa = PBXGroup;
+			children = (
+				18A334051E83A06E007BFDCE /* GYChangeTextView.h */,
+				18A334061E83A06E007BFDCE /* GYChangeTextView.m */,
+			);
+			path = GYChangeTextView;
+			sourceTree = "<group>";
+		};
+		18A334071E83A06E007BFDCE /* WQLPaoMaView */ = {
+			isa = PBXGroup;
+			children = (
+				18A334081E83A06E007BFDCE /* WQLPaoMaView.h */,
+				18A334091E83A06E007BFDCE /* WQLPaoMaView.m */,
+			);
+			path = WQLPaoMaView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,8 +185,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A333F41E83A05F007BFDCE /* ViewController.m in Sources */,
+				18A3340B1E83A06E007BFDCE /* WQLPaoMaView.m in Sources */,
 				18A333F11E83A05F007BFDCE /* AppDelegate.m in Sources */,
 				18A333EE1E83A05F007BFDCE /* main.m in Sources */,
+				18A3340A1E83A06E007BFDCE /* GYChangeTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
